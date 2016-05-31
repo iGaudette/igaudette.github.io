@@ -10,7 +10,7 @@ lightlightgrey #f8f8f8
 body {
 	margin: 0px 0px 30px 0px;
 	font-family: sans-serif;
-	background-color: #f8f8f8;
+	background-color: #f0f0f0;
 }
 
 a {
@@ -57,7 +57,7 @@ h2 {
 /*Menubar*/
 #menubar {
 	text-align: center;
-	background-color: white;
+	background-color: #8ea486;
 	padding: 15px 0px 15px 0px;
 	width: 100%;
 	height: auto;
