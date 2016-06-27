@@ -28,6 +28,10 @@ h2 {
 	font-family: cursive;
 }
 
+img {
+	max-width: 100%;
+}
+
 .container {
 	max-width: 800px;
 }
