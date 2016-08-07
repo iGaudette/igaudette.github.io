@@ -24,8 +24,12 @@ table {
 	margin-top: 20px;
 }
 
+h1 {
+	font-family: Great Vibes, cursive;
+}
+
 h2 {
-	font-family: cursive;
+	font-family: Great Vibes, cursive;
 }
 
 img {
@@ -66,7 +70,7 @@ img {
 	padding: 15px 0px 15px 0px;
 	width: 100%;
 	height: auto;
-	font-family: cursive;
+	font-family: Great Vibes, cursive;
 	box-shadow: 0px 5px 5px #909090;
 }
 
@@ -76,7 +80,7 @@ img {
 
 #menubar h1 {
 	margin: 0px;
-	font-size: 275%;
+	font-size: 300%;
 }
 
 #menubar h2 {
@@ -91,7 +95,7 @@ img {
 
 #menubar h4 {
 	margin-top: 5px;
-
+	font-size: 175%;
 }
 
 #menubar ul {
@@ -191,7 +195,7 @@ img {
 	text-align:center; 
 	font-weight:bold; 
 	opacity:0.7; 
-	font-family: cursive;
+	font-family: Great Vibes, cursive;
 }
 
 /*Footer*/
