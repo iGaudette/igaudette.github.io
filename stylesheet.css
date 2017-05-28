@@ -12,6 +12,9 @@ body {
 	margin: 0px 0px 30px 0px;
 	font-family: sans-serif;
 	background-color: #f0f0f0;
+	/*background-image: url(pictures/creek.jpg);
+	background-size: 100%;
+	background-attachment: fixed;*/
 }
 
 a {
@@ -100,6 +103,7 @@ img {
 
 #menubar ul {
 	margin: 0px;
+	padding: 0px;
 	z-index: 20;
 }
 
@@ -108,8 +112,8 @@ img {
 	border: 2px solid grey;
 	background-color: lightgrey;
 	border-radius: 5px;
-	padding: 5px 15px 5px 15px;
-	width: 190px;
+	padding: 10px 15px 5px 15px;
+	width: 160px;
 }
 
 #menubar li ul {
@@ -135,6 +139,24 @@ img {
 
 
 /*Content*/
+.boxed {
+	padding: 10px;
+	border: 2px solid lightgrey;
+	background-color: white;
+}
+
+.product_row {
+	width: 100%;
+	/*height: 200px;*/
+	text-align: center;
+	/*border-style: solid;*/
+}
+
+.product_row td {
+	width: 33%;
+	padding: 10px;
+}
+
 #contact-us {
 	padding: 0px 15px 15px 0px;
 	width: 48%;
@@ -150,6 +172,52 @@ img {
 
 #contact-us ul {
 	list-style-type: none;
+}
+
+#contact_info table {
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	table-layout: fixed;
+}
+
+#feedback div {
+	padding: 10px;
+	border: 2px solid lightgrey;
+	background-color: white;
+}
+
+#feedback input {
+	width: 100%;
+	padding: 12px 20px;
+    margin: 8px 0px;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+}
+
+#feedback textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    resize: none;
+}
+
+#feedback button {
+    background-color: #8ea486;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#feedback button:hover {
+	box-shadow: 0px 0px 5px 3px grey inset;
 }
 
 #products {
@@ -196,6 +264,10 @@ img {
 	font-weight:bold; 
 	opacity:0.7; 
 	font-family: Great Vibes, cursive;
+}
+
+#success a {
+	color: #537150;
 }
 
 /*Footer*/

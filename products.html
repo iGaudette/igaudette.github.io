@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- carousel header -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	  <style>
+	  .carousel-inner > .item > img,
+	  .carousel-inner > .item > a > img {
+	      width: 100%;
+	      margin: auto;
+	  }
+	  </style>
+
+	<!-- rest of header -->  
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <title>Laurel Mountain Hollow - Products</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+    <script src="app.js"></script>
+</head>
+
+<body>
+	<!-- menubar -->
+	<div id="menubar">
+		<h1>Laurel Mountain Hollow</h1>
+		<h4>Honey Bees and Maple Trees</h4>
+		<ul>
+			<li>
+				<a href="index.html"><h2>Home</h2></a>
+			</li>
+			
+			<li>
+				<a href="products.html"><h2>Products</h2></a>	
+				<!-- <ul class="dropdown-menu-ijg" style="display: none;">
+		           	<li><a href="honey_products.html"><h3>Honey Products</h3></a></li>
+		           	<li><a href="maple_products.html"><h3>Maple Products</h3></a></li>
+
+		           	<li><a href="#"><img class="small" src="logo.jpg" /></a></li>
+		           	<li><a href="#"><img class="small" src="honey.jpg" /></a></li>
+		           	<li><a href="#"><img class="small" src="jam.jpg" /></a></li>
+	            </ul>  -->
+	        </li>
+		
+			<li>
+				<a href="about.html"><h2>About</h2></a>
+			</li>
+
+	        <li>
+				<a href="contact_us.html"><h2>Contact Us</h2></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<br>
+		<div class="boxed">
+		<h1 style="text-align:center;">Products page currently under construction</h1>
+		<h4 style="text-align:center;">Our first batch was a success, product availability limited!</h4>
+		<br>
+		<!-- top row -->
+			<table class="product_row">
+				<tr>
+					<td>
+						<p>Accepted Online Payment Methods</p>
+						<img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png"/>
+					</td>
+					<td>
+						<p><b>Cart Details and Checkout</b></p>
+						<!-- View Cart Button -->
+						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+							">
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- amber syrup -->
+		<table id="syrup" class="product_row boxed">
+			<tr>
+				<td><img src="pictures/amber_syrup.jpg"></td>
+				<td>
+					<b>Amber Maple Syrup</b> 
+					<br>Grade A: Amber Color, Rich Taste <br>14oz (425mL) <br><br>Sweet, light maple flavor
+				</td>
+				<td>
+					<p><b>Coming Soon!</b></p>
+					<!-- Add to Cart Button -->
+					<!-- <p><b>$12.50 + Shipping</b></p>
+					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="L5EBDNVSX24K4">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form> -->
+				</td>
+			</tr>
+		</table>
+		<!-- dark syrup -->
+		<table class="product_row boxed">
+			<tr>
+				<td><img src="pictures/dark_syrup.jpg"></td>
+				<td>
+					<b>Dark Maple Syrup</b> 
+					<br>Grade A: Dark Color, Robust Taste <br>14oz (425mL) <br><br>Less sweet, more maple flavor
+				</td>
+				<td>
+					<p><b>Coming Soon!</b></p>
+					<!-- Add to Cart Button -->
+					<!-- <p><b>$12.50 + Shipping</b></p>
+					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="L75AZSPMNL82Y">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form> -->
+				</td>
+			</tr>
+		</table>
+		<!-- honey -->
+		<table id="honey" class="product_row boxed">
+			<tr>
+				<td><img src="pictures/honey.jpg"></td>
+				<td>
+					<b>Raw Unfiltered Honey</b> 
+					<br>10oz (280g) <br><br>Gently heat container in warm water bath (&lt150&#176F) to reverse crystallization
+				</td>
+				<td>
+					<p><b>Coming Soon!</b></p>
+					<!-- Add to Cart Button -->
+					<!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="84HWBNCKGB42U">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form> -->
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<!-- footer -->
+	<div class="container">
+		<div id="footer">  
+	        <hr />
+	        Copyright &copy; Laurel Mountain Hollow.  All Rights Reserved. 
+	        <br />
+	        <SCRIPT TYPE="text/javascript">
+				emailE='gmail.com'
+				emailE=('igaudette42' + '@' + emailE + '?subject=Feedback for Laurel Mountain Hollow Website')
+				document.write('<A href="mailto:' + emailE + '">' + 'Contact the Webmaster' + '</a>')
+			</script>
+	    </div>
+   	</div>
+
+</body>
+</html>
