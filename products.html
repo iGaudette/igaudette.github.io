@@ -78,18 +78,27 @@
 		<!-- top row -->
 		<div class="row boxed" id="prod-row-first" style="margin-left: -5px; margin-right: -5px;">
 			<div class="col-md-12">
-				<h4 class="hidden-xs">Our first batch was a success, product availability limited!</h4>
-				<h5 class="hidden-lg hidden-md hidden-sm"><i>Our first batch was a success, product availability limited!</i><br/><br/></h5>
+				<h4 class="hidden-xs">Products can be purchased here, or at one of the following locations:</h4>
+				<h5 class="hidden-lg hidden-md hidden-sm"><i>Products can be purchased here, or at one of the following locations:</i><br/><br/></h5>
 			</div>
 
 			<div class="col-md-1 hidden-sm hidden-xs"></div>
 			<div class="col-md-5 col-sm-6 hidden-xs">
-				<div>
-					<p>Accepted Payment Methods</p>
-					<img class="img-responsive" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png"/>
+				<div style="display: inline-block; text-align: left;">
+					<p><b>Bimi's Cheese Shop</b><br/>21 Main Street<br/>Chatham, NY 12037</p>
+					<p><b>Chatham Real Food Market CO-OP</b><br/>15 Church Street<br/>Chatham, NY 12037</p>
+					<p><b>Spencertown Country Store</b><br/>825 NY 203<br/>Austerlitz, NY 12017</p>
+				</div>
+			</div>
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+				<div style="display: inline-block; text-align: center;">
+					<p><b>Bimi's Cheese Shop</b><br/>21 Main Street<br/>Chatham, NY 12037</p>
+					<p><b>Chatham Real Food Market CO-OP</b><br/>15 Church Street<br/>Chatham, NY 12037</p>
+					<p><b>Spencertown Country Store</b><br/>825 NY 203<br/>Austerlitz, NY 12017</p>
 				</div>
 			</div>
 			<div class="col-md-5 col-sm-6 col-xs-12">
+				<br/><br/>
 				<p style="margin-bottom: 0px;"><b>Cart Details and Checkout</b></p>
 				<!-- View Cart Button -->
 				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
@@ -99,7 +108,8 @@
 					<input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_viewcart_147x47.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 				</form>
-				<img class="img-responsive hidden-lg hidden-md hidden-sm" style="width: 200px;" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png"/>
+				<img class="img-responsive" style="width: 200px;" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png"/>
+				<br/>
 			</div>
 			<div class="col-md-1 hidden-sm hidden-xs"></div>
 		</div>
@@ -108,6 +118,7 @@
 		<!-- Product Rows -->
 		<!-- idea from https://bootsnipp.com/snippets/featured/portfolio-gallery-with-filtering-category -->
 		<br/>
+		<!-- Filter buttons -->
 		<div class="row">
 			<div class="col-sm-12 hidden-xs">
 				<div align="center" class="boxed" id="button-select" style="margin-left: -5px; margin-right: -5px;">
@@ -132,6 +143,7 @@
 				</div>
 			</div>
 
+			<!-- Amber Syrup -->
 			<div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 filter syrup">
 				<div class="row boxed">
 					<div class="col-sm-12">
@@ -150,6 +162,7 @@
 					</div>
 				</div>	
 			</div>
+			<!-- Dark Syrup -->
 			<div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 filter syrup">
 				<div class="row boxed">
 					<div class="col-sm-12">
@@ -168,6 +181,26 @@
 					</div>
 				</div>	
 			</div>
+			<!-- Very Dark Syrup -->
+			<div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 filter syrup">
+				<div class="row boxed">
+					<div class="col-sm-12">
+						<img src="pictures/very_dark_syrup.jpg" class="img-responsive" alt="Laurel Mountain Hollow - Very Dark Maple Syrup">
+						<p><b>Very Dark Maple Syrup</b></p>
+						<p>14 fl oz (425 mL)</p>
+						<p><b>$12.00</b></p>
+						<!-- <p class="bg-danger"><b>Out of Stock</b></p> -->
+						<!-- <p class="bg-info"><b>Coming Soon!</b></p> -->
+						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="9PZHPN5UUT5AG">
+							<input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+					</div>
+				</div>	
+			</div>
+			<!-- Honey -->
 			<div class="gallery_product col-lg-3 col-md-4 col-sm-6 col-xs-6 filter honey">
 				<div class="row boxed">
 					<div class="col-sm-12">
